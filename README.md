@@ -1,2 +1,2 @@
 # solitaire_card_build
-card game link
+ for build
