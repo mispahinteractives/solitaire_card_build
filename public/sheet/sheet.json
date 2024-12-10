@@ -33,7 +33,7 @@
 	"sourceSize": {"w":296,"h":452}
 },
 {
-	"filename": "Diamonds-3",
+	"filename": "Diamonds-2",
 	"frame": {"x":1214,"y":448,"w":295,"h":443},
 	"rotated": false,
 	"trimmed": true,
@@ -135,6 +135,6 @@
 	"format": "RGBA8888",
 	"size": {"w":3237,"h":975},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:0da5416fdc54b3451cdb5bc6d14e14f3:dbbdfbcdaf04dfb22620f8de375fa49f:9c44ecd7e9a522007eaff2949095bc1d$"
+	"smartupdate": "$TexturePacker:SmartUpdate:f5b810a53d9ee5d8a0ae32c3b5a6ecc0:b657f4dd6b8fc6d0697e1a14a036aa74:9c44ecd7e9a522007eaff2949095bc1d$"
 }
 }
