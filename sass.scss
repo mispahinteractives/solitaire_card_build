@@ -101,10 +101,15 @@ html {
 body {
     margin: 0;
     padding: 0;
-    font-family: $f-body;
+    background: #222;
+}
+
+#game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100vw;
     height: 100vh;
-    background: #222;
 }
 
 .e-loadholder {
@@ -195,18 +200,6 @@ body {
     }
 }
 
-@keyframes moveText {
-    0% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-130px); // Move text up
-    }
-    100% {
-        transform: translateY(0); // Move text back to original position
-    }
-}
-
 #particleCanvas-White {
     @include centre();
     width: 100%;
@@ -223,11 +216,11 @@ body {
 .e-logo {
     @include centre();
     display: block;
-    // width: 100px;
-    // height: 100px;
+    width: 127px;
+    height: 127px;
     margin: 10px auto;
     animation: spin 3s linear infinite;
-    transform: translate(-55%, calc(-70% + 0px));
+    transform: translate(-55%, calc(-58% + 0px));
 }
 
 .hidden {
